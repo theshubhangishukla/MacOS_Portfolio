@@ -101,28 +101,28 @@ const blogPosts = [
 
 const techStack = [
     {
-        category: "Frontend",
-        items: ["React.js", "Next.js", "TypeScript"],
+        category: "foundations",
+        items: ["C/C++", "Python", "DSA", "Linux"], // Shortened Linux/Shell
     },
     {
-        category: "Mobile",
-        items: ["React Native", "Expo"],
+        category: "frontend",
+        items: ["Next.js", "TS", "React", "Hono"], // TS is standard shorthand
     },
     {
-        category: "Styling",
-        items: ["Tailwind CSS", "Sass", "CSS"],
+        category: "design/motion", // Use slash to save horizontal space
+        items: ["GSAP", "Framer", "Tailwind", "Canvas"], // "Motion" is implied
     },
     {
-        category: "Backend",
-        items: ["Node.js", "Express", "NestJS", "Hono"],
+        category: "backend",
+        items: ["Node", "Express", "NestJS", "Postgres"], // Shorter names
     },
     {
-        category: "Database",
-        items: ["MongoDB", "PostgreSQL"],
+        category: "infra", // Shorter category
+        items: ["Docker", "Azure", "MongoDB", "Git"],
     },
     {
-        category: "Dev Tools",
-        items: ["Git", "GitHub", "Docker"],
+        category: "strategy",
+        items: ["Docs", "SEO/CRO", "Telemetry"], // "Docs" is cleaner
     },
 ];
 
