@@ -1,7 +1,6 @@
 import windowWrapper from "#hoc/WindowWrapper.jsx";
 import {techStack} from "#constants/index.js";
 import { Check, Flag } from "lucide-react";
-import Window from "#store/window.js";
 import {WindowControls} from "#components/index.js";
 
 const Terminal = () => {
@@ -16,7 +15,6 @@ const Terminal = () => {
                     <span className="font-bold">@shubhangi % </span>
                     show tech stack
                 </p>
-
                 <div className="label">
                     <p className="w-32">Category</p>
                     <p>Technologies</p>
@@ -27,14 +25,12 @@ const Terminal = () => {
                             <Check className="check" size={20} />
                             <h3>{category}</h3>
                             <ul>
-                                {items.map((item, i)=>(
-                                    <li key = {i}>{item}
-                                        {i<items.length-1 ? "," : ""}
-                                    </li>
+                                {items.map((item, i) => (
+                                    <li key={i}>{item}{i < items.length - 1 ? "," : ""}</li>
                                 ))}
                             </ul>
                         </li>
-                        ))}
+                    ))}
                 </ul>
                 <div className="footnote">
                     <p>
@@ -51,4 +47,4 @@ const Terminal = () => {
 };
 
 const TerminalWindow = windowWrapper(Terminal, "terminal");
-export default TerminalWindow ;
+export default TerminalWindow;
