@@ -132,28 +132,28 @@ const socials = [
         text: "Github",
         icon: "/icons/github.svg",
         bg: "#f4656b",
-        link: "https://github.com/JavaScript-Mastery-Pro",
+        link: "https://github.com/theshubhangishukla",
     },
     {
         id: 2,
         text: "Platform",
         icon: "/icons/atom.svg",
         bg: "#4bcb63",
-        link: "https://jsmastery.com/",
+        link: "https://www.linkedin.com/in/theshubhangishukla/",
     },
     {
         id: 3,
         text: "Twitter/X",
         icon: "/icons/twitter.svg",
         bg: "#ff866b",
-        link: "https://x.com/jsmasterypro",
+        link: "https://x.com/theshubhangishukla",
     },
     {
         id: 4,
         text: "LinkedIn",
         icon: "/icons/linkedin.svg",
         bg: "#05b6f6",
-        link: "https://www.linkedin.com/company/javascriptmastery/posts/?feedView=all",
+        link: "https://www.linkedin.com/in/theshubhangishukla/",
     },
 ];
 
@@ -225,7 +225,7 @@ const WORK_LOCATION = {
         // ▶ Project 1
         {
             id: 5,
-            name: "Nike Ecommerce Website Application",
+            name: "Portfolio",
             icon: "/images/folder.png",
             kind: "folder",
             position: "top-10 left-5", // icon position inside Finder
@@ -233,30 +233,30 @@ const WORK_LOCATION = {
             children: [
                 {
                     id: 1,
-                    name: "Nike Project.txt",
+                    name: "Portfolio Project.txt",
                     icon: "/images/txt.png",
                     kind: "file",
                     fileType: "txt",
                     position: "top-5 left-10",
                     description: [
-                        "The Nike eCommerce website is a sleek and modern platform designed for shopping the latest Nike collections.",
-                        "Instead of a simple online store, it delivers an immersive experience with bold visuals, interactive product displays, and smooth navigation.",
-                        "Think of it like walking into a flagship Nike store—but right from your phone or laptop.",
-                        "It's built with Next.js and Tailwind, ensuring fast performance, responsive design, and a clean, premium look.",
+                        "MacFolio is a macOS-inspired interactive portfolio built as a fully functional desktop environment that runs entirely in the browser.",
+                        "It features draggable, stackable windows with z-index management, a physics-based magnifying dock, a Finder with nested file navigation, and per-character font-weight animations, all powered by GSAP.",
+                        "State is managed globally using Zustand with Immer middleware for immutable updates, and windows are architected using a Higher Order Component pattern to avoid code duplication across all app windows.",
+                        "Built with React, Vite, GSAP, Tailwind CSS, and Zustand, demonstrating advanced frontend patterns, clean component architecture, and production-level attention to UI engineering detail.",
                     ],
                 },
-                {
+                /*{
                     id: 2,
-                    name: "nike.com",
+                    name: "your website.com",
                     icon: "/images/safari.png",
                     kind: "file",
                     fileType: "url",
-                    href: "https://youtu.be/fZdTYswuZjU?si=Awjl-pIst9e09_UU",
+                    href: "website link",
                     position: "top-10 right-20",
-                },
+                },*/
                 {
                     id: 4,
-                    name: "nike.png",
+                    name: "portfolio.png",
                     icon: "/images/image.png",
                     kind: "file",
                     fileType: "img",
@@ -265,11 +265,11 @@ const WORK_LOCATION = {
                 },
                 {
                     id: 5,
-                    name: "Design.fig",
+                    name: "github.com",
                     icon: "/images/plain.png",
                     kind: "file",
                     fileType: "fig",
-                    href: "https://google.com",
+                    href: "https://github.com/theshubhangishukla/MacOS_Portfolio",
                     position: "top-60 right-20",
                 },
             ],
@@ -278,7 +278,7 @@ const WORK_LOCATION = {
         // ▶ Project 2
         {
             id: 6,
-            name: "AI Resume Analyzer",
+            name: "Currency converter app",
             icon: "/images/folder.png",
             kind: "folder",
             position: "top-52 right-80",
@@ -286,30 +286,30 @@ const WORK_LOCATION = {
             children: [
                 {
                     id: 1,
-                    name: "AI Resume Analyzer Project.txt",
+                    name: "Currency converter app.txt",
                     icon: "/images/txt.png",
                     kind: "file",
                     fileType: "txt",
                     position: "top-5 right-10",
                     description: [
-                        "AI Resume Analyzer is a smart tool that helps you perfect your resume with instant feedback.",
-                        "Instead of guessing what recruiters want, you get AI-powered insights on keywords, formatting, and overall impact.",
-                        "Think of it like having a career coach—pointing out strengths, fixing weaknesses, and boosting your chances of landing interviews.",
-                        "It's built with Next.js and Tailwind, so it runs fast, looks professional, and works seamlessly on any device.",
+                        "Nexus Exchange Pro is an enterprise-grade currency exchange platform delivering real-time market data across 150+ global currencies through the ExchangeRate API.",
+                        "It features intelligent rate caching to minimize redundant API calls, auto-refresh capability for live rate updates, and comprehensive error handling for failed or delayed data fetches.",
+                        "The platform includes advanced search functionality, a responsive enterprise design, and is architected for performance, separating API logic, caching, and UI concerns cleanly.",
+                        "Built with vanilla HTML, CSS, and JavaScript, demonstrating that clean architecture, real API integration, and enterprise-level UX don't require a framework to execute well.",
                     ],
                 },
-                {
+                /*{
                     id: 2,
-                    name: "ai-resume-analyzer.com",
+                    name: "your website.com",
                     icon: "/images/safari.png",
                     kind: "file",
                     fileType: "url",
-                    href: "https://youtu.be/iYOz165wGkQ?si=R1hs8Legl200m0Cl",
+                    href: "website link",
                     position: "top-20 left-20",
-                },
+                },*/
                 {
                     id: 4,
-                    name: "ai-resume-analyzer.png",
+                    name: "Currency converter app.png",
                     icon: "/images/image.png",
                     kind: "file",
                     fileType: "img",
@@ -318,11 +318,11 @@ const WORK_LOCATION = {
                 },
                 {
                     id: 5,
-                    name: "Design.fig",
+                    name: "github.com",
                     icon: "/images/plain.png",
                     kind: "file",
                     fileType: "fig",
-                    href: "https://google.com",
+                    href: "https://github.com/theshubhangishukla/currency-converter-app",
                     position: "top-60 left-5",
                 },
             ],
@@ -331,7 +331,7 @@ const WORK_LOCATION = {
         // ▶ Project 3
         {
             id: 7,
-            name: "Food Delivery App",
+            name: "Weather Forecast",
             icon: "/images/folder.png",
             kind: "folder",
             position: "top-10 left-80",
@@ -339,30 +339,30 @@ const WORK_LOCATION = {
             children: [
                 {
                     id: 1,
-                    name: "Food Delivery App Project.txt",
+                    name: "Weather Forecast.txt",
                     icon: "/images/txt.png",
                     kind: "file",
                     fileType: "txt",
                     position: "top-5 left-10",
                     description: [
-                        "Our Food Delivery App is a fast and convenient way to order meals from your favorite restaurants.",
-                        "Instead of making calls or waiting in line, you can browse menus, customize orders, and track deliveries in real time.",
-                        "Think of it like having your favorite restaurants in your pocket—ready to deliver anytime, anywhere.",
-                        "It’s built with React Native, so it works smoothly on both iOS and Android with a clean, modern design.",
+                        "A real-time weather forecast application that delivers live atmospheric data for any city worldwide using the OpenWeatherMap API.",
+                        "It surfaces the metrics that actually matter, temperature, humidity, wind speed, and weather conditions, in a clean, distraction-free interface built for clarity over clutter.",
+                        "Built around asynchronous JavaScript using the Fetch API and Promises, with thoughtful handling of API rate limits, failed requests, and edge cases like invalid city names.",
+                        "Built with vanilla HTML5, CSS3, and ES6+ JavaScript, demonstrating strong async fundamentals, real-world API integration, and responsive design without relying on any framework.",
                     ],
                 },
-                {
+                /*{
                     id: 2,
-                    name: "food-delivery-app.com",
+                    name: "your website.com",
                     icon: "/images/safari.png",
                     kind: "file",
                     fileType: "url",
-                    href: "https://youtu.be/LKrX390fJMw?si=cExkuVhf2DTV9G2-",
+                    href: "insert website link",
                     position: "top-10 right-20",
-                },
+                },*/
                 {
                     id: 4,
-                    name: "food-delivery-app.png",
+                    name: "Weather Forecast.png",
                     icon: "/images/image.png",
                     kind: "file",
                     fileType: "img",
@@ -371,11 +371,11 @@ const WORK_LOCATION = {
                 },
                 {
                     id: 5,
-                    name: "Design.fig",
+                    name: "github.com",
                     icon: "/images/plain.png",
                     kind: "file",
                     fileType: "fig",
-                    href: "https://google.com",
+                    href: "https://github.com/theshubhangishukla/weather-nexus",
                     position: "top-60 right-20",
                 },
             ],
@@ -397,7 +397,7 @@ const ABOUT_LOCATION = {
             kind: "file",
             fileType: "img",
             position: "top-10 left-5",
-            imageUrl: "/images/adrian.jpg",
+            imageUrl: "/images/shubhangi.png",
         },
         {
             id: 2,
@@ -406,7 +406,7 @@ const ABOUT_LOCATION = {
             kind: "file",
             fileType: "img",
             position: "top-28 right-72",
-            imageUrl: "/images/adrian-2.jpg",
+            imageUrl: "/images/shubhangi-2.jpeg",
         },
         {
             id: 3,
@@ -415,7 +415,7 @@ const ABOUT_LOCATION = {
             kind: "file",
             fileType: "img",
             position: "top-52 left-80",
-            imageUrl: "/images/adrian-3.jpeg",
+            imageUrl: "/images/shubhangi-3.png",
         },
         {
             id: 4,
@@ -425,12 +425,12 @@ const ABOUT_LOCATION = {
             fileType: "txt",
             position: "top-60 left-5",
             subtitle: "Meet the Developer Behind the Code",
-            image: "/images/adrian.jpg",
+            image: "/images/shubhangi.png",
             description: [
-                "Hey! I’m Adrian 👋, a web developer who enjoys building sleek, interactive websites that actually work well.",
-                "I specialize in JavaScript, React, and Next.js—and I love making things feel smooth, fast, and just a little bit delightful.",
-                "I’m big on clean UI, good UX, and writing code that doesn’t need a search party to debug.",
-                "Outside of dev work, you'll find me tweaking layouts at 2AM, sipping overpriced coffee, or impulse-buying gadgets I absolutely convinced myself I needed 😅",
+                "Hey! I'm Shubhangi 👋, a CS undergrad who's been coding since middle school and still hasn't figured out how to stop.",
+                "I build at the intersection of deep tech, design, and human behaviour because I think the best software doesn't just work, it thinks.",
+                "I care deeply about clean architecture, intentional UI, and writing code that a future version of me won't hate at 2AM.",
+                "Outside of dev work you'll find me reading something wildly off-topic, writing on Substack, going down a research rabbit hole, or convincing myself I need to learn one more thing before I'm ready 😅",
             ],
         },
     ],
@@ -445,12 +445,12 @@ const RESUME_LOCATION = {
     children: [
         {
             id: 1,
-            name: "Resume.pdf",
+            name: "resume.pdf",
             icon: "/images/pdf.png",
             kind: "file",
             fileType: "pdf",
-            // you can add `href` if you want to open a hosted resume
-            // href: "/your/resume/path.pdf",
+            //add `href` if you want to open a hosted resume
+            //href: "public/files/resume.pdf",
         },
     ],
 };
